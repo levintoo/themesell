@@ -23,4 +23,5 @@
         $query = "INSERT INTO has_category (post, category) VALUES ('$post_id', '$el')";
         mysqli_query($db, $query);
     }
+    header('localhost: http://localhost:7882/themesell/admin/insert_post.html')
 ?>

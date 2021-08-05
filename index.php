@@ -52,84 +52,12 @@
   </section>
   <main class="content bg-light container py-4">
     <section class="row">
-      <div class="col-md-4">
-        <article class=" shadow p-0 m-2">
-          <img src="./img/0.jpg" alt="" class="img-fluid">
-          <div class="article-content px-3 py-2">
-            <h4>My bootstrap theme</h4>
-            <div class="d-flex justify-content-between">
-              <p>20. March 2020</p>
-              <p><span class="badge bg-success">Bootstrap</span></p>
-            </div>
-          </div>
-        </article>
-      </div>
+    <?php
 
-      <div class="col-md-4">
-        <article class=" shadow p-0 m-2">
-          <img src="./img/0.jpg" alt="" class="img-fluid">
-          <div class="article-content px-3 py-2">
-            <h4>My bootstrap theme</h4>
-            <div class="d-flex justify-content-between">
-              <p>20. March 2020</p>
-              <p><span class="badge bg-success">Bootstrap</span></p>
-            </div>
-          </div>
-        </article>
-      </div>
+      require_once("./php/getPost.php");
+      getMainPosts();
 
-      <div class="col-md-4">
-        <article class=" shadow p-0 m-2">
-          <img src="./img/0.jpg" alt="" class="img-fluid">
-          <div class="article-content px-3 py-2">
-            <h4>My bootstrap theme</h4>
-            <div class="d-flex justify-content-between">
-              <p>20. March 2020</p>
-              <p><span class="badge bg-success">Bootstrap</span></p>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="col-md-4">
-        <article class=" shadow p-0 m-2">
-          <img src="./img/0.jpg" alt="" class="img-fluid">
-          <div class="article-content px-3 py-2">
-            <h4>My bootstrap theme</h4>
-            <div class="d-flex justify-content-between">
-              <p>20. March 2020</p>
-              <p><span class="badge bg-success">Bootstrap</span></p>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="col-md-4">
-        <article class=" shadow p-0 m-2">
-          <img src="./img/0.jpg" alt="" class="img-fluid">
-          <div class="article-content px-3 py-2">
-            <h4>My bootstrap theme</h4>
-            <div class="d-flex justify-content-between">
-              <p>20. March 2020</p>
-              <p><span class="badge bg-success">Bootstrap</span></p>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="col-md-4">
-        <article class=" shadow p-0 m-2">
-          <img src="./img/0.jpg" alt="" class="img-fluid">
-          <div class="article-content px-3 py-2">
-            <h4>My bootstrap theme</h4>
-            <div class="d-flex justify-content-between">
-              <p>20. March 2020</p>
-              <p><span class="badge bg-success">Bootstrap</span></p>
-            </div>
-          </div>
-        </article>
-      </div>
-
+    ?>
     </section>
     <div class="d-flex justify-content-center">
       <button class="btn btn-success btn-md my-4">Load More</button>
