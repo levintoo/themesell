@@ -1,0 +1,16 @@
+.hero{
+    min-height:20rem;
+    background: linear-gradient(to right, #14a76c, #ffe400);
+}
+a{
+    text-decoration:none !important;
+    color: white !important;
+}
+a:hover{
+    color: lightgoldenrodyellow !important;
+}
+img.rounded-circle{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
