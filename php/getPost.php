@@ -12,7 +12,7 @@ function getMainPosts(){
         $cat_result = mysqli_query($db, $query);
         $categories = "";
         while ($category = mysqli_fetch_array($cat_result)){
-            $categories .= '<p><span class="badge bg-success">'. $category['name'].'</span></p>';
+            $categories .= '<p><span class="badge bg-success ">'. $category['name'].'</span></p>';
         }
         
         echo '      
@@ -22,7 +22,7 @@ function getMainPosts(){
           <div class="article-content px-3 py-2">
             <h4>'.$row['title'].'</h4>
             <div class="d-flex justify-content-between">
-              <p>'.$row['date'].'</p>
+              <p>'.substr($row['date'],0,10).'</p>
               <p>'.$categories.'</p>
 
               
