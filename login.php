@@ -58,17 +58,17 @@
     </section>
     <main class="content bg-light container py-4">
         <div class="row justify-content-center">
-            <form class="col-md-6 w-80">
+            <form class="col-md-6 w-80" action="http://localhost:7882/themesell/php/login.php" method="post">
                 <div class="form-group row mb-2">
                   <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                   <div class="col-sm-10">
-                    <input name="mail" class="form-control"type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    <input name="mail" class="form-control" type="" class="form-control" id="inputEmail3" placeholder="Email">
                   </div>
                 </div>
                 <div class="form-group row mb-2">
                   <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
                   <div class="col-sm-10">
-                    <input name="password" type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    <input name="password" type="" class="form-control" id="inputPassword3" placeholder="Password">
                   </div>
                 </div>
                 <div class="form-group row">
