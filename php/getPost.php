@@ -12,7 +12,7 @@ function getMainPosts(){
         $cat_result = mysqli_query($db, $query);
         $categories = "";
         while ($category = mysqli_fetch_array($cat_result)){
-            $categories .= '<p><span class="badge bg-success ">'. $category['name'].'</span></p>';
+            $categories .= '<p><span class="badge bg-success ml-1">'. $category['name'].'</span></p>';
         }
         
         echo '      
